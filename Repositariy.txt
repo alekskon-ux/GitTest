@@ -1,0 +1,7 @@
+тест обучение см. видео
+папка на моём ПК - GitTest
+https://github.com/alekskon-ux/GitTest
+SSH:   git@github.com:alekskon-ux/gittest.git
+alerskon-ux
+djanko@list.ru
+Xh2SQG41
