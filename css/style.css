@@ -47,7 +47,7 @@ body {
   padding: 0 15px;
   margin: 0 auto;
   /* временно  */
-  background-color: rgb(210, 245, 245);
+  background-color: rgb(191, 250, 250);
 }
 
 .section-descr {
@@ -60,7 +60,7 @@ body {
   padding-bottom: 160px;
 }
 
-/* 1_header==================== */
+/* ===================header============= */
 .header {
   padding: 36px 0;
 }
@@ -143,7 +143,7 @@ body {
   text-align: center;
 }
 
-/* articles===================== */
+/* ====================articles===================== */
 .articles-list {
   flex-wrap: wrap;
 }
@@ -216,3 +216,52 @@ body {
 }
 
 /*  contacts==================== */
+
+.contacts-address {
+  font-style: normal;
+}
+
+.contacts-item {
+  flex-direction: column;
+  width: 370px;
+  outline: 1px solid red;
+}
+
+.contacts-item:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
+
+.contacts-item-caption {
+  margin-bottom: 30px;
+}
+
+.contacts-item-text {
+  margin: 0;
+}
+
+.contacts-item-link:not(:nth-child(3n)) {
+  margin-bottom: 5px;
+}
+
+/* footer=========================== */
+.footer {
+  padding: 42px 0;
+}
+
+.footer-container {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-left,
+.footer-right {
+  align-items: center;
+}
+
+.footer-logo {
+  margin-right: 25px;
+}
+
+.footer-item:not(:last-child()) {
+  margin-right: 28px;
+}
